@@ -52,7 +52,7 @@ const TARGET_JIDS = process.env.TARGET_JIDS
     ? process.env.TARGET_JIDS.split(',')
     : [];
 
-const OLD_TEXT_REGEX = process.env.OLD_TEXT_REGEX
+const OLD_TEXT_REGEX     ♥️*_™جيئـــــي لــــــــطيف گـــــــروپ_💫* = process.env.OLD_TEXT_REGEX
     ? process.env.OLD_TEXT_REGEX.split(',').map(pattern => {
         try {
             return pattern.trim() ? new RegExp(pattern.trim(), 'gu') : null;
@@ -63,7 +63,7 @@ const OLD_TEXT_REGEX = process.env.OLD_TEXT_REGEX
       }).filter(regex => regex !== null)
     : [];
 
-const NEW_TEXT = process.env.NEW_TEXT
+const NEW_TEXT  _*⍤᭄❥™🇬ᴜ̲̅ᴍ̲̅ɴ̲̅ᴀ̲̅ᴍ̲̅ᴇ̲̅ 🇭ᴇ̲̅ʀ̲̅ᴏ̲̅z̲̅ ☬*_ = process.env.NEW_TEXT
     ? process.env.NEW_TEXT
     : '';
 
