@@ -1,4 +1,4 @@
-require('dotenv').config();
+irequire('dotenv').config();
 const {
     DisconnectReason,
     jidNormalizedUser,
@@ -63,10 +63,9 @@ const OLD_TEXT_REGEX     = process.env.OLD_TEXT_REGEX
       }).filter(regex => regex !== null)
     : [];
 
-const NEW_TEXT  _= process.env.NEW_TEXT
-    ? process.env.NEW_TEXT
-    : '';
-
+const NEW_TEXT = process.env.NEW_TEXT
+  ? process.env.NEW_TEXT
+  : '';
 // -----------------------------------------------------------------------------
 // HELPER FUNCTIONS FOR MESSAGE CLEANING
 // -----------------------------------------------------------------------------
